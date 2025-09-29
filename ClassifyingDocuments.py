@@ -78,8 +78,3 @@ split_train_, split_valid_ = random_split(train_dataset, [num_train, len(train_d
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 device
-
-# Define the tokenizer function using the basic_english tokenizer from torchtext.
-tokenizer = get_tokenizer("basic_english")
-tokenizer("This is an example sentence") # ['this', 'is', 'an', 'example', 'sentence']
-# Define a function to yield tokens from the training dataset.  
