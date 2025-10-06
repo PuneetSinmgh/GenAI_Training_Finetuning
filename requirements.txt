@@ -1,0 +1,7 @@
+# Project dependencies for PrpmptEngineering-lab1/LLM_model.py
+# Install with: python3 -m pip install -r requirements.txt
+ibm-watsonx-ai
+ibm-watson-machine-learning
+langchain
+langchain-core
+langchain-ibm
