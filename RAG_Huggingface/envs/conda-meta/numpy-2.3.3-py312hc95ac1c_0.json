@@ -1,0 +1,38 @@
+{
+  "build": "py312hc95ac1c_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [
+    "setuptools <74"
+  ],
+  "depends": [
+    "__osx >=12.1",
+    "blas * openblas",
+    "libcxx >=17",
+    "libopenblas >=0.3.29,<1.0a0",
+    "numpy-base 2.3.3 py312h8087a70_0",
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/opt/homebrew/anaconda3/pkgs/numpy-2.3.3-py312hc95ac1c_0",
+  "files": [],
+  "fn": "numpy-2.3.3-py312hc95ac1c_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/opt/homebrew/anaconda3/pkgs/numpy-2.3.3-py312hc95ac1c_0",
+    "type": 1
+  },
+  "md5": "9f0637a9f6b4e5db841f69bcf10c02ae",
+  "name": "numpy",
+  "package_tarball_full_path": "/opt/homebrew/anaconda3/pkgs/numpy-2.3.3-py312hc95ac1c_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "numpy",
+  "sha256": "0108f15080ee86ab1345697d6307cdff787a86519c857285ba77633cc18a6ead",
+  "size": 10153,
+  "subdir": "osx-arm64",
+  "timestamp": 1757670332000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/numpy-2.3.3-py312hc95ac1c_0.conda",
+  "version": "2.3.3"
+}

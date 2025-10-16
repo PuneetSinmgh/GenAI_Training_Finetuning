@@ -1,0 +1,11 @@
+prefix=/Users/puneetsingh/AI Projects/GenAI_&_LLMs_certification/RAG_Huggingface/envs
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/puneetsingh/AI Projects/GenAI_&_LLMs_certification/RAG_Huggingface/envs/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

@@ -1,0 +1,9 @@
+prefix=/Users/puneetsingh/AI Projects/GenAI_&_LLMs_certification/RAG_Huggingface/envs
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 3.0.18
+Requires: libssl libcrypto
