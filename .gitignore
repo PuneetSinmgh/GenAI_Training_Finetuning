@@ -1,0 +1,28 @@
+# Byte-compiled / cached / log files
+__pycache__/
+*.py[cod]
+*.log
+
+# Conda / virtual environments
+.env
+env/
+.venv/
+venv/
+.conda/
+myenv/
+
+# IDE & Editor configs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
